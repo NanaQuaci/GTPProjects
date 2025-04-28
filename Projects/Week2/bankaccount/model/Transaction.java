@@ -1,4 +1,4 @@
-package Projects.Week2.bankaccount;
+package Projects.Week2.bankaccount.model;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;

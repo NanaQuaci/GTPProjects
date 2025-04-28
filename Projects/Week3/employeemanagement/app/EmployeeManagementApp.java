@@ -1,5 +1,10 @@
-package Projects.Week3.employeemanagement;
+package Projects.Week3.employeemanagement.app;
 
+import Projects.Week3.employeemanagement.model.Employee;
+import Projects.Week3.employeemanagement.services.EmployeeComparators;
+import Projects.Week3.employeemanagement.services.EmployeeSalaryManager;
+import Projects.Week3.employeemanagement.services.EmployeeSearch;
+import Projects.Week3.employeemanagement.database.EmployeeDatabase;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;

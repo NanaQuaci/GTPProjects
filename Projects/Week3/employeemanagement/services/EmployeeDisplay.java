@@ -1,4 +1,6 @@
-package Projects.Week3.employeemanagement;
+package Projects.Week3.employeemanagement.services;
+import Projects.Week3.employeemanagement.model.Employee;
+
 import java.util.List;
 import java.util.Map;
 

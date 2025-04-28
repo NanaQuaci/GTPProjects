@@ -1,4 +1,4 @@
-package Projects.Week2.bankaccount;
+package Projects.Week2.bankaccount.model;
 
 import java.util.Date;
 import java.util.LinkedList;

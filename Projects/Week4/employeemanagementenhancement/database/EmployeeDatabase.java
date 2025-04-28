@@ -1,5 +1,6 @@
-package Projects.Week4.employeemanagementenhancement;
+package Projects.Week4.employeemanagementenhancement.database;
 //import Projects.Week4.employeemanagementenhancement.exceptions;
+import Projects.Week4.employeemanagementenhancement.model.Employee;
 import Projects.Week4.employeemanagementenhancement.exceptions.EmployeeNotFoundException;
 import Projects.Week4.employeemanagementenhancement.exceptions.InvalidDepartmentException;
 import Projects.Week4.employeemanagementenhancement.exceptions.InvalidSalaryException;

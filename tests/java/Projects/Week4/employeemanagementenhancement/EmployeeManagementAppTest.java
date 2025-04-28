@@ -1,12 +1,12 @@
 package Projects.Week4.employeemanagementenhancement;
 import static org.junit.jupiter.api.Assertions.*;
 
-import Projects.Week4.employeemanagementenhancement.Employee;
-import Projects.Week4.employeemanagementenhancement.EmployeeDatabase;
-import Projects.Week4.employeemanagementenhancement.EmployeeSearch;
+import Projects.Week4.employeemanagementenhancement.database.EmployeeDatabase;
 import Projects.Week4.employeemanagementenhancement.exceptions.EmployeeNotFoundException;
 import Projects.Week4.employeemanagementenhancement.exceptions.InvalidDepartmentException;
 import Projects.Week4.employeemanagementenhancement.exceptions.InvalidSalaryException;
+import Projects.Week4.employeemanagementenhancement.model.Employee;
+import Projects.Week4.employeemanagementenhancement.services.EmployeeSearch;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.util.List;

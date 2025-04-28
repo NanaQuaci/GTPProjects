@@ -1,5 +1,6 @@
-package Projects.Week4.employeemanagementenhancement;
-import Projects.Week4.employeemanagementenhancement.exceptions.InvalidDepartmentException;
+package Projects.Week3.employeemanagement.services;
+import Projects.Week3.employeemanagement.database.EmployeeDatabase;
+import Projects.Week3.employeemanagement.model.Employee;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -10,9 +11,9 @@ public class EmployeeSearch<T> {
         this.database = database;
     }
 
-    public List<Employee<T>> searchByDepartment(String department) throws InvalidDepartmentException {
+    public List<Employee<T>> searchByDepartment(String department){
         if (department == null || department.isBlank()){
-            throw new InvalidDepartmentException("Department cannot be null or empty");
+            throw new IllegalArgumentException("Department cannot be null or empty");
         }
         return database.getAllEmployees().values().stream().filter(employee -> employee.getDepartment().equalsIgnoreCase(department)).collect(Collectors.toList());
     }

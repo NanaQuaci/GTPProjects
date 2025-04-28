@@ -1,12 +1,16 @@
-package Projects.Week2.bankaccount;
+package Projects.Week2.bankaccount.app;
 
+import Projects.Week2.bankaccount.model.BankAccount;
+import Projects.Week2.bankaccount.model.Transaction;
+import Projects.Week2.bankaccount.services.CurrentAccount;
+import Projects.Week2.bankaccount.services.FixedDepositAccount;
+import Projects.Week2.bankaccount.services.SavingsAccount;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.layout.HBox;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
@@ -14,8 +18,6 @@ import java.util.HashMap;
 import java.util.Map;
 import javafx.collections.ObservableList;
 import java.util.Date;
-
-import static java.lang.Double.parseDouble;
 
 
 public class BankAccountManagementSystem extends Application {

@@ -1,6 +1,9 @@
-package Projects.Week2.bankaccount;
+package Projects.Week2.bankaccount.services;
 
-public class CurrentAccount extends BankAccount implements BankOperations{
+import Projects.Week2.bankaccount.model.BankAccount;
+import Projects.Week2.bankaccount.model.BankOperations;
+
+public class CurrentAccount extends BankAccount implements BankOperations {
     private double overdraftLimit;
 
     public CurrentAccount(String accountNumber, double balance, double overdraftLimit){

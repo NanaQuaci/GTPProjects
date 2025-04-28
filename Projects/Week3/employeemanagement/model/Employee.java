@@ -1,4 +1,4 @@
-package Projects.Week4.employeemanagementenhancement;
+package Projects.Week3.employeemanagement.model;
 
 public class Employee<T> implements Comparable<Employee<T>> {
     private T employeeId;

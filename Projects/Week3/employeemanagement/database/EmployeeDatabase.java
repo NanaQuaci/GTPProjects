@@ -1,4 +1,6 @@
-package Projects.Week3.employeemanagement;
+package Projects.Week3.employeemanagement.database;
+import Projects.Week3.employeemanagement.model.Employee;
+
 import java.util.HashMap;
 import java.util.Map;
 

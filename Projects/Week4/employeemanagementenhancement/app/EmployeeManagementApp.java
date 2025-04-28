@@ -1,8 +1,13 @@
-package Projects.Week4.employeemanagementenhancement;
+package Projects.Week4.employeemanagementenhancement.app;
 
+import Projects.Week4.employeemanagementenhancement.database.EmployeeDatabase;
 import Projects.Week4.employeemanagementenhancement.exceptions.EmployeeNotFoundException;
 import Projects.Week4.employeemanagementenhancement.exceptions.InvalidDepartmentException;
 import Projects.Week4.employeemanagementenhancement.exceptions.InvalidSalaryException;
+import Projects.Week4.employeemanagementenhancement.model.Employee;
+import Projects.Week4.employeemanagementenhancement.services.EmployeeComparators;
+import Projects.Week4.employeemanagementenhancement.services.EmployeeSalaryManager;
+import Projects.Week4.employeemanagementenhancement.services.EmployeeSearch;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;

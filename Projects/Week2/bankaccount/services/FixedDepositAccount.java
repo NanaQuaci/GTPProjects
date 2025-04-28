@@ -1,4 +1,7 @@
-package Projects.Week2.bankaccount;
+package Projects.Week2.bankaccount.services;
+import Projects.Week2.bankaccount.model.BankAccount;
+import Projects.Week2.bankaccount.model.BankOperations;
+
 import java.util.Date;
 
 public class FixedDepositAccount extends BankAccount implements BankOperations {
